@@ -1,6 +1,8 @@
 # makepython_ultrasensors
 
-MakePython will only run boot.py. Download boot.py in the MakePython to run the code
+The IOT_Project file are NOT IN ANY WAY used in the final code. Rather, the folder contains the iterations and tests to ensure each component of the final code is working properly.
+
+MakePython will only run boot.py. Download boot.py in the MakePython to run the code.
 
 Below explains what the code does
 1) Declare the pins to the ultrasensors, red and green LED lights (shown in lines 20 to 29)
