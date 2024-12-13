@@ -4,8 +4,8 @@ import urequests
 from machine import Pin, time_pulse_us
 
 def connect_wifi():
-    ssid = "***REMOVED***"  # Replace with your Wi-Fi SSID
-    password = "***REMOVED***"  # Replace with your Wi-Fi password
+    ssid = ""  # Replace with your Wi-Fi SSID
+    password = ""  # Replace with your Wi-Fi password
     
     # Create a WLAN object (Wi-Fi interface)
     wlan = network.WLAN(network.STA_IF)  

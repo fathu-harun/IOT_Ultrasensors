@@ -29,8 +29,8 @@ redPin2 = Pin(12, Pin.OUT)   # Red LED pin
 greenPin2 = Pin(2, Pin.OUT)  # Green LED pin
 
 def connect_wifi():
-  ssid = "***REMOVED***"  # Replace with your Wi-Fi SSID
-  password = "***REMOVED***"  # Replace with your Wi-Fi password
+  ssid = ""  # Replace with your Wi-Fi SSID
+  password = ""  # Replace with your Wi-Fi password
   
   # Create a WLAN object (Wi-Fi interface)
   wlan = network.WLAN(network.STA_IF)  
@@ -136,7 +136,7 @@ def get_sensor_data2():
 def send_data(data, data2):
   # ThingsBoard REST API endpoint and device token
   THINGSBOARD_URL = "http://tb.relentlessadmin.org:8080/api/v1/"  # Replace with your ThingsBoard server if self-hosted
-  DEVICE_TOKEN = "***REMOVED***"                      # Replace with your device token
+  DEVICE_TOKEN = ""                      # Replace with your device token
   URL = THINGSBOARD_URL + DEVICE_TOKEN + "/telemetry"
   try:
     payload = {3:data, 4:data2}
