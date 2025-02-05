@@ -1,6 +1,6 @@
 # makepython_ultrasensors
 
-The IOT_Project file are NOT IN ANY WAY used in the final code. Rather, the folder contains the iterations and tests to ensure each component of the final code is working properly.
+The IOT_Project folder are NOT IN ANY WAY used in the final code. Rather, the folder contains the iterations and tests to ensure each component of the final code is working properly.
 
 MakePython will only run boot.py. Download boot.py in the MakePython to run the code.
 
