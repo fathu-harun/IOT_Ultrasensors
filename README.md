@@ -1,3 +1,13 @@
+# Repository Description
+
+This repo is forked from my IoT project which aims to simulate a car parking lot system. This project value adds current carpark systems by providing a UI that enables users to find vacant parking slots in a carpark without having to be there physically. 
+
+A demo video (1min 45s) of the system can be seen in this url here: https://www.youtube.com/watch?v=9rUQngah12s
+
+Since I headed the microcontroller segment of this project, I am sharing the microcontroller repo of this project. 
+
+If you are interested to know more about the rest of the project code, feel free to visit the main repo here: https://github.com/IOT-group-9
+
 # makepython_ultrasensors
 
 The IOT_Project folder are NOT IN ANY WAY used in the final code. Rather, the folder contains the iterations and tests to ensure each component of the final code is working properly.
